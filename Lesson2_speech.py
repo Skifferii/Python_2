@@ -8,9 +8,9 @@ More than 3 years ago I moved to Novo-Novsk, but worked on new Magnetic Storage 
 numbers = [78, 15, 3, 40, 8]
 
 for number in numbers:
-    words = num2words(number)
-    transliterated_words = translit(words, 'ru', reversed=False)
-    print(str(number)+' '+'-'+' ' +transliterated_words)
+    transliterated_words = translit(num2words(number), 'ru', reversed=False)
+    print(str(number) + ' - ' + transliterated_words)
+
     
     
 
